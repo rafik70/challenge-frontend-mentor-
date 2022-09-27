@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body {
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+}
+.container{ 
+    
+     background-color: hsl(213, 19%, 18%);
+     width:400px;
+     font-family: 'Overpass', sans-serif;
+     padding: 30px;
+     border-radius :30px;
+     color: white;
+     font-size: 15px;
+     
+     
+}
+.star{
+    background-image:url("images/icon-star.svg")  ;
+    background-color:  hsl(210, 20%, 22%);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.text{
+      margin-bottom: 30px;
+      
+}
+
+.text span{ 
+     opacity: .4;
+}
+
+ul{ 
+    list-style-type: none;
+     margin:0px;
+     padding:0px;
+     
+}
+li{ 
+    display: inline;
+    background-color: hsl(207, 17%, 24%);
+     color: white;
+     padding: 15px 20px;
+     border-radius:100%;
+     margin: 8px;
+     opacity: .5;
+     cursor:pointer ;
+    
+}
+li:hover{ 
+    background-color: hsl(220, 7%, 58%);
+     opacity: 1;
+}
+li:active{ 
+    background-color: hsl(25, 97%, 53%);
+}
+.button{ 
+    margin-top: 40px;
+     background-color: hsl(25, 97%, 53%);
+     text-align: center ;
+     padding: 10px;
+     border-radius: 20px;
+     cursor:pointer ;
+}
+.button:active{
+  color:hsl(25, 97%, 53%) ;
+   background-color:  white;
+}
+.thank-you-state{ 
+    display:none;
+    margin-top: 30px;
+  
+}
+.image-thank{ 
+     margin-bottom: 20px;
+}
+h2{ 
+     margin-bottom: 10px;
+}
+.feedback{ 
+    color:hsl(25, 97%, 53%);
+    border-radius: 20px;
+     background-color:hsl(223, 11%, 25%) ;
+     width: fit-content ;
+     padding: 5px 15px;
+     opacity: .8;
+     margin-bottom: 20px;
+}
+.active { 
+    background-color: hsl(220, 7%, 58%);
+    opacity: 1;
+}
+
+@media screen and (max-width:400px) {
+   li { 
+      margin: 0px;
+   }
+  }
